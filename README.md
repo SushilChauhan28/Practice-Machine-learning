@@ -1,2 +1,2 @@
-# Assignment-Machine-learning
+# Practice-Machine-learning
 Here I have practiced Machine Learning Algorithm in Jupyter Notebook
