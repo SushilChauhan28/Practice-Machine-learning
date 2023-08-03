@@ -1,0 +1,86 @@
+name: 🐞 Bug
+description: File a Bug
+about: Use this template to report a new issue.
+title: '[Issue Title]'
+body:
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue Description
+      description: Please provide a clear and concise description of the issue.
+      placeholder: 'Describe the issue...'
+    required: true
+
+  - type: textarea
+    id: issue_impact
+    attributes:
+      label: Issue Impact
+      description: Describe the impact of this issue on the project or users.
+      placeholder: 'Explain the impact...'
+    required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: 'Please provide detailed steps to reproduce the issue.'
+      placeholder: |
+        1. Step 1
+        2. Step 2
+        3. ...
+      required: true
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: If you have any recommendations or potential solutions for the issue, please mention them here.
+      placeholder: 'Your recommendations...'
+    required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Please select the severity of the issue.
+      options:
+        - label: Critical
+        - label: High
+        - label: Medium
+        - label: Low
+      required: true
+
+  - type: dropdown
+    id: wcag_success_criteria
+    attributes:
+      label: WCAG Success Criteria
+      description: Please select the applicable WCAG success criteria related to this issue.
+      options:
+        - label: '1.1.1 Non-text Content'
+        - label: '1.2.2 Captions (Prerecorded)'
+        - label: '1.3.1 Info and Relationships'
+        - label: '...'
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Please set the current status of the issue.
+      options:
+        - label: New
+        - label: In Progress
+        - label: Resolved
+        - label: "Won't Fix"
+      required: true
+
+  - type: checkboxes
+    id: device
+    attributes:
+      label: Device
+      description: Please specify the device on which the issue occurs.
+      options:
+        - label: iOS
+        - label: Android
+        - label: Desktop
+      required: true
