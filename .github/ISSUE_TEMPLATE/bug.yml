@@ -3,21 +3,18 @@ description: File a Bug
 title: '[Issue Title]'
 body:
   - type: textarea
-    id: issue_description
     attributes:
       label: Issue Description
       description: Please provide a clear and concise description of the issue.
       placeholder: 'Describe the issue...'
     required: true
   - type: textarea
-    id: issue_impact
     attributes:
       label: Issue Impact
       description: Describe the impact of this issue on the project or users.
       placeholder: 'Explain the impact...'
     required: true
   - type: textarea
-    id: steps_to_reproduce
     attributes:
       label: Steps to Reproduce
       description: 'Please provide detailed steps to reproduce the issue.'
@@ -27,14 +24,12 @@ body:
         3. ...
       required: true
   - type: textarea
-    id: recommendation
     attributes:
       label: Recommendation
       description: If you have any recommendations or potential solutions for the issue, please mention them here.
       placeholder: 'Your recommendations...'
     required: true
   - type: dropdown
-    id: severity
     attributes:
       label: Severity
       description: Please select the severity of the issue.
@@ -45,7 +40,6 @@ body:
         - label: Low
       required: true
   - type: dropdown
-    id: wcag_success_criteria
     attributes:
       label: WCAG Success Criteria
       description: Please select the applicable WCAG success criteria related to this issue.
@@ -56,7 +50,6 @@ body:
         - label: '...'
       required: true
   - type: dropdown
-    id: status
     attributes:
       label: Status
       description: Please set the current status of the issue.
@@ -67,7 +60,6 @@ body:
         - label: "Won't Fix"
       required: true
   - type: checkboxes
-    id: device
     attributes:
       label: Device
       description: Please specify the device on which the issue occurs.
