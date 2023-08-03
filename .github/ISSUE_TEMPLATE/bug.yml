@@ -9,7 +9,6 @@ body:
       description: Please provide a clear and concise description of the issue.
       placeholder: 'Describe the issue...'
     required: true
-
   - type: textarea
     id: issue_impact
     attributes:
@@ -17,7 +16,6 @@ body:
       description: Describe the impact of this issue on the project or users.
       placeholder: 'Explain the impact...'
     required: true
-
   - type: textarea
     id: steps_to_reproduce
     attributes:
@@ -28,7 +26,6 @@ body:
         2. Step 2
         3. ...
       required: true
-
   - type: textarea
     id: recommendation
     attributes:
@@ -36,7 +33,6 @@ body:
       description: If you have any recommendations or potential solutions for the issue, please mention them here.
       placeholder: 'Your recommendations...'
     required: true
-
   - type: dropdown
     id: severity
     attributes:
@@ -48,7 +44,6 @@ body:
         - label: Medium
         - label: Low
       required: true
-
   - type: dropdown
     id: wcag_success_criteria
     attributes:
@@ -60,7 +55,6 @@ body:
         - label: '1.3.1 Info and Relationships'
         - label: '...'
       required: true
-
   - type: dropdown
     id: status
     attributes:
@@ -72,7 +66,6 @@ body:
         - label: Resolved
         - label: "Won't Fix"
       required: true
-
   - type: checkboxes
     id: device
     attributes:
