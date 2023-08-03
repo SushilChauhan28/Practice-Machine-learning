@@ -1,5 +1,4 @@
 name: Custom Issue Template
-Description: Use this template to report a new issue.
 
 title: '[Issue Title]'
 body:
@@ -75,10 +74,3 @@ body:
         - label: iOS
         - label: Android
         - label: Desktop
-
-required:
-  - issue_description
-  - severity
-  - wcag_success_criteria
-  - status
-  - device
