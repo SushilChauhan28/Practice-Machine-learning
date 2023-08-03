@@ -25,6 +25,8 @@ body:
         1. Step 1
         2. Step 2
         3. ...
+      # Add a comment to indicate this field is required
+      comment: Please provide the steps to reproduce the issue.
 
   - type: textarea
     id: recommendation
@@ -43,6 +45,8 @@ body:
         - label: High
         - label: Medium
         - label: Low
+      # Add a comment to indicate this field is required
+      comment: Please select the severity level.
 
   - type: dropdown
     id: wcag_success_criteria
@@ -53,6 +57,8 @@ body:
         - label: '1.1.1 Non-text Content'
         - label: '1.2.1 Audio-only and Video-only (Prerecorded)'
         # Add all other WCAG success criteria here
+      # Add a comment to indicate this field is required
+      comment: Please select at least one applicable WCAG success criteria.
 
   - type: dropdown
     id: status
@@ -64,6 +70,8 @@ body:
         - label: In Progress
         - label: Resolved
         - label: "Won't Fix"
+      # Add a comment to indicate this field is required
+      comment: Please set the status of the issue.
 
   - type: checkboxes
     id: device
@@ -74,3 +82,5 @@ body:
         - label: iOS
         - label: Android
         - label: Desktop
+      # Add a comment to indicate this field is required
+      comment: Please specify the device(s) where the issue occurs.
